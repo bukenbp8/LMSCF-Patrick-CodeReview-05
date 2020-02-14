@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+	<script src="movie.json" type="text/javascript" charset="utf-8"></script>
+	<title>Movie Factory</title>
+</head>
+<body class="bg-darkblue">
+<header class="container-fluid p-0 bg-black">
+	<h1 class="text-center text-white p-2">Movie Factory</h1>
+	<nav class="navbar navbar-dark bg-dark">		
+			<a href="index.html" title="home" class="text-white font-weight-bold">Home</a>	
+	</nav>
+</header>
+<main class="container bg-darkblue p-4">
+	<nav class="navbar text-center text-white p">
+		<h4>All Movies</h4>
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+		    Sort
+		  	</button>
+		  	<div class="dropdown-menu dropdown-menu-right">
+			    <button class="dropdown-item text-white" type="button">Action</button>
+			    <button class="dropdown-item text-white" type="button">Adventure</button>
+			    <button class="dropdown-item text-white" type="button">Comedy</button>
+			    <button class="dropdown-item text-white" type="button">Crime</button>
+			    <button class="dropdown-item text-white" type="button">Drama</button>
+			    <button class="dropdown-item text-white" type="button">Family</button>
+			    <button class="dropdown-item text-white" type="button">Romance</button>
+			    <button class="dropdown-item text-white" type="button">Thriller</button>
+			    <button class="dropdown-item text-white" type="button">War</button>  
+		  	</div>
+		</div>
+	</nav>
+	<div class="row movies">
+	</div>
+</main>
+<footer class="page-footer bg-dark">
+	<div class="container-fluid text-center text-md left bg-black">
+		<h2 class="text-white p-3">Movie Factory</h2>
+	</div>
+	<div class="footer-copyright text-center p-2 text-white">© 2020 Copyright:
+    <a href="#" class="text-white">Patrick Bukenberger</a>
+  </div>
+</footer>
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="./js/myscript.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

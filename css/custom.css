@@ -1,0 +1,40 @@
+.bg-black {
+	background-color: black;
+}
+
+.navbar a {
+	font-size: 1.3em;
+}
+
+.img-thumbnail {
+	height: 10em;
+	width: 7em;
+}
+
+.bg-darkblue {
+	background-color: #1D2329;
+}
+
+.dropdown-menu {
+	background-color: black;
+	color: white;
+}
+
+.dropdown-item:hover{background-color: darkgrey;}
+
+.trunc {
+-webkit-line-clamp: 8;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.rating {
+	height: 3em;
+	width: 3em;
+	background-color: #28A745;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: center;
+}
