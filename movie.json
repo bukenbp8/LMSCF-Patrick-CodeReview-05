@@ -1,6 +1,7 @@
 var movieList = [
         {
             "id": 1,
+            "likes": 0,
             "title": "Beetlejuice",
             "year": "1988",
             "runtime": "92",
@@ -15,6 +16,7 @@ var movieList = [
         },
         {
             "id": 2,
+            "likes": 0,
             "title": "The Cotton Club",
             "year": "1984",
             "runtime": "127",
@@ -30,6 +32,7 @@ var movieList = [
         },
         {
             "id": 3,
+            "likes": 0,
             "title": "The Shawshank Redemption",
             "year": "1994",
             "runtime": "142",
@@ -44,6 +47,7 @@ var movieList = [
         },
         {
             "id": 4,
+            "likes": 0,
             "title": "Crocodile Dundee",
             "year": "1986",
             "runtime": "97",
@@ -58,6 +62,7 @@ var movieList = [
         },
         {
             "id": 5,
+            "likes": 0,
             "title": "Valkyrie",
             "year": "2008",
             "runtime": "121",
@@ -73,6 +78,7 @@ var movieList = [
         },
         {
             "id": 6,
+            "likes": 0,
             "title": "Ratatouille",
             "year": "2007",
             "runtime": "111",
@@ -88,6 +94,7 @@ var movieList = [
         },
         {
             "id": 7,
+            "likes": 0,
             "title": "City of God",
             "year": "2002",
             "runtime": "130",
@@ -102,6 +109,7 @@ var movieList = [
         },
         {
             "id": 8,
+            "likes": 0,
             "title": "Memento",
             "year": "2000",
             "runtime": "113",
@@ -116,6 +124,7 @@ var movieList = [
         },
         {
             "id": 9,
+            "likes": 0,
             "title": "The Intouchables",
             "year": "2011",
             "runtime": "112",
@@ -131,6 +140,7 @@ var movieList = [
         },
         {
             "id": 10,
+            "likes": 0,
             "title": "Stardust",
             "year": "2007",
             "runtime": "127",
@@ -146,6 +156,7 @@ var movieList = [
         },
         {
             "id": 11,
+            "likes": 0,
             "title": "Apocalypto",
             "year": "2006",
             "runtime": "139",
@@ -161,6 +172,7 @@ var movieList = [
         },
         {
             "id": 12,
+            "likes": 0,
             "title": "Taxi Driver",
             "year": "1976",
             "runtime": "113",
@@ -175,6 +187,7 @@ var movieList = [
         },
         {
             "id": 13,
+            "likes": 0,
             "title": "No Country for Old Men",
             "year": "2007",
             "runtime": "122",
@@ -190,6 +203,7 @@ var movieList = [
         },
         {
             "id": 14,
+            "likes": 0,
             "title": "Planet 51",
             "year": "2009",
             "runtime": "91",
@@ -205,6 +219,7 @@ var movieList = [
         },
         {
             "id": 15,
+            "likes": 0,
             "title": "Looper",
             "year": "2012",
             "runtime": "119",
@@ -220,6 +235,7 @@ var movieList = [
         },
         {
             "id": 16,
+            "likes": 0,
             "title": "Corpse Bride",
             "year": "2005",
             "runtime": "77",
@@ -235,6 +251,7 @@ var movieList = [
         },
         {
             "id": 17,
+            "likes": 0,
             "title": "The Third Man",
             "year": "1949",
             "runtime": "93",
@@ -250,6 +267,7 @@ var movieList = [
         },
         {
             "id": 18,
+            "likes": 0,
             "title": "The Beach",
             "year": "2000",
             "runtime": "119",
@@ -265,6 +283,7 @@ var movieList = [
         },
         {
             "id": 19,
+            "likes": 0,
             "title": "Scarface",
             "year": "1983",
             "runtime": "170",
@@ -279,6 +298,7 @@ var movieList = [
         },
         {
             "id": 20,
+            "likes": 0,
             "title": "Sid and Nancy",
             "year": "1986",
             "runtime": "112",
@@ -294,6 +314,7 @@ var movieList = [
         },
         {
             "id": 21,
+            "likes": 0,
             "title": "Black Swan",
             "year": "2010",
             "runtime": "108",
@@ -308,6 +329,7 @@ var movieList = [
         },
         {
             "id": 22,
+            "likes": 0,
             "title": "Inception",
             "year": "2010",
             "runtime": "148",
@@ -323,6 +345,7 @@ var movieList = [
         },
         {
             "id": 23,
+            "likes": 0,
             "title": "The Deer Hunter",
             "year": "1978",
             "runtime": "183",
@@ -337,6 +360,7 @@ var movieList = [
         },
         {
             "id": 24,
+            "likes": 0,
             "title": "Chasing Amy",
             "year": "1997",
             "runtime": "113",
@@ -352,6 +376,7 @@ var movieList = [
         },
         {
             "id": 25,
+            "likes": 0,
             "title": "Django Unchained",
             "year": "2012",
             "runtime": "165",
@@ -366,6 +391,7 @@ var movieList = [
         },
         {
             "id": 26,
+            "likes": 0,
             "title": "The Silence of the Lambs",
             "year": "1991",
             "runtime": "118",
@@ -381,6 +407,7 @@ var movieList = [
         },
         {
             "id": 27,
+            "likes": 0,
             "title": "American Beauty",
             "year": "1999",
             "runtime": "122",
@@ -395,6 +422,7 @@ var movieList = [
         },
         {
             "id": 28,
+            "likes": 0,
             "title": "Snatch",
             "year": "2000",
             "runtime": "102",
@@ -409,6 +437,7 @@ var movieList = [
         },
         {
             "id": 29,
+            "likes": 0,
             "title": "Midnight Express",
             "year": "1978",
             "runtime": "121",
@@ -424,6 +453,7 @@ var movieList = [
         },
         {
             "id": 30,
+            "likes": 0,
             "title": "Pulp Fiction",
             "year": "1994",
             "runtime": "154",
@@ -438,6 +468,7 @@ var movieList = [
         },
         {
             "id": 31,
+            "likes": 0,
             "title": "Lock, Stock and Two Smoking Barrels",
             "year": "1998",
             "runtime": "107",
@@ -452,6 +483,7 @@ var movieList = [
         },
         {
             "id": 32,
+            "likes": 0,
             "title": "Lucky Number Slevin",
             "year": "2006",
             "runtime": "110",
@@ -467,6 +499,7 @@ var movieList = [
         },
         {
             "id": 33,
+            "likes": 0,
             "title": "Rear Window",
             "year": "1954",
             "runtime": "112",
@@ -481,6 +514,7 @@ var movieList = [
         },
         {
             "id": 34,
+            "likes": 0,
             "title": "Pan's Labyrinth",
             "year": "2006",
             "runtime": "118",
@@ -496,6 +530,7 @@ var movieList = [
         },
         {
             "id": 35,
+            "likes": 0,
             "title": "Shutter Island",
             "year": "2010",
             "runtime": "138",
@@ -510,6 +545,7 @@ var movieList = [
         },
         {
             "id": 36,
+            "likes": 0,
             "title": "Reservoir Dogs",
             "year": "1992",
             "runtime": "99",
@@ -525,6 +561,7 @@ var movieList = [
         },
         {
             "id": 37,
+            "likes": 0,
             "title": "The Shining",
             "year": "1980",
             "runtime": "146",
@@ -539,6 +576,7 @@ var movieList = [
         },
         {
             "id": 38,
+            "likes": 0,
             "title": "Midnight in Paris",
             "year": "2011",
             "runtime": "94",
@@ -554,6 +592,7 @@ var movieList = [
         },
         {
             "id": 39,
+            "likes": 0,
             "title": "Les Misérables",
             "year": "2012",
             "runtime": "158",
@@ -569,6 +608,7 @@ var movieList = [
         },
         {
             "id": 40,
+            "likes": 0,
             "title": "L.A. Confidential",
             "year": "1997",
             "runtime": "138",
@@ -584,6 +624,7 @@ var movieList = [
         },
         {
             "id": 41,
+            "likes": 0,
             "title": "Moneyball",
             "year": "2011",
             "runtime": "133",
@@ -599,6 +640,7 @@ var movieList = [
         },
         {
             "id": 42,
+            "likes": 0,
             "title": "The Hangover",
             "year": "2009",
             "runtime": "100",
@@ -612,6 +654,7 @@ var movieList = [
         },
         {
             "id": 43,
+            "likes": 0,
             "title": "The Great Beauty",
             "year": "2013",
             "runtime": "141",
@@ -625,6 +668,7 @@ var movieList = [
         },
         {
             "id": 44,
+            "likes": 0,
             "title": "Gran Torino",
             "year": "2008",
             "runtime": "116",
@@ -638,6 +682,7 @@ var movieList = [
         },
         {
             "id": 45,
+            "likes": 0,
             "title": "Mary and Max",
             "year": "2009",
             "runtime": "92",
@@ -653,6 +698,7 @@ var movieList = [
         },
         {
             "id": 46,
+            "likes": 0,
             "title": "Flight",
             "year": "2012",
             "runtime": "138",
@@ -667,6 +713,7 @@ var movieList = [
         },
         {
             "id": 47,
+            "likes": 0,
             "title": "One Flew Over the Cuckoo's Nest",
             "year": "1975",
             "runtime": "133",
@@ -680,6 +727,7 @@ var movieList = [
         },
         {
             "id": 48,
+            "likes": 0,
             "title": "Requiem for a Dream",
             "year": "2000",
             "runtime": "102",
@@ -693,6 +741,7 @@ var movieList = [
         },
         {
             "id": 49,
+            "likes": 0,
             "title": "The Truman Show",
             "year": "1998",
             "runtime": "103",
@@ -708,6 +757,7 @@ var movieList = [
         },
         {
             "id": 50,
+            "likes": 0,
             "title": "The Artist",
             "year": "2011",
             "runtime": "100",
@@ -723,6 +773,7 @@ var movieList = [
         },
         {
             "id": 51,
+            "likes": 0,
             "title": "Forrest Gump",
             "year": "1994",
             "runtime": "142",
@@ -737,6 +788,7 @@ var movieList = [
         },
         {
             "id": 52,
+            "likes": 0,
             "title": "The Hobbit: The Desolation of Smaug",
             "year": "2013",
             "runtime": "161",
@@ -751,6 +803,7 @@ var movieList = [
         },
         {
             "id": 53,
+            "likes": 0,
             "title": "Vicky Cristina Barcelona",
             "year": "2008",
             "runtime": "96",
@@ -765,6 +818,7 @@ var movieList = [
         },
         {
             "id": 54,
+            "likes": 0,
             "title": "Slumdog Millionaire",
             "year": "2008",
             "runtime": "120",
@@ -779,6 +833,7 @@ var movieList = [
         },
         {
             "id": 55,
+            "likes": 0,
             "title": "Lost in Translation",
             "year": "2003",
             "runtime": "101",
@@ -792,6 +847,7 @@ var movieList = [
         },
         {
             "id": 56,
+            "likes": 0,
             "title": "Match Point",
             "year": "2005",
             "runtime": "119",
@@ -807,6 +863,7 @@ var movieList = [
         },
         {
             "id": 57,
+            "likes": 0,
             "title": "Psycho",
             "year": "1960",
             "runtime": "109",
@@ -822,6 +879,7 @@ var movieList = [
         },
         {
             "id": 58,
+            "likes": 0,
             "title": "North by Northwest",
             "year": "1959",
             "runtime": "136",
@@ -837,6 +895,7 @@ var movieList = [
         },
         {
             "id": 59,
+            "likes": 0,
             "title": "Madagascar: Escape 2 Africa",
             "year": "2008",
             "runtime": "89",
@@ -852,6 +911,7 @@ var movieList = [
         },
         {
             "id": 60,
+            "likes": 0,
             "title": "Despicable Me 2",
             "year": "2013",
             "runtime": "98",
@@ -867,6 +927,7 @@ var movieList = [
         },
         {
             "id": 61,
+            "likes": 0,
             "title": "Downfall",
             "year": "2004",
             "runtime": "156",
@@ -882,6 +943,7 @@ var movieList = [
         },
         {
             "id": 62,
+            "likes": 0,
             "title": "Madagascar",
             "year": "2005",
             "runtime": "86",
@@ -897,6 +959,7 @@ var movieList = [
         },
         {
             "id": 63,
+            "likes": 0,
             "title": "Madagascar 3: Europe's Most Wanted",
             "year": "2012",
             "runtime": "93",
@@ -912,6 +975,7 @@ var movieList = [
         },
         {
             "id": 64,
+            "likes": 0,
             "title": "God Bless America",
             "year": "2011",
             "runtime": "105",
@@ -926,6 +990,7 @@ var movieList = [
         },
         {
             "id": 65,
+            "likes": 0,
             "title": "The Social Network",
             "year": "2010",
             "runtime": "120",
@@ -940,6 +1005,7 @@ var movieList = [
         },
         {
             "id": 66,
+            "likes": 0,
             "title": "The Pianist",
             "year": "2002",
             "runtime": "150",
@@ -955,6 +1021,7 @@ var movieList = [
         },
         {
             "id": 67,
+            "likes": 0,
             "title": "Alive",
             "year": "1993",
             "runtime": "120",
@@ -970,6 +1037,7 @@ var movieList = [
         },
         {
             "id": 68,
+            "likes": 0,
             "title": "Casablanca",
             "year": "1942",
             "runtime": "102",
@@ -985,6 +1053,7 @@ var movieList = [
         },
         {
             "id": 69,
+            "likes": 0,
             "title": "American Gangster",
             "year": "2007",
             "runtime": "157",
@@ -1000,6 +1069,7 @@ var movieList = [
         },
         {
             "id": 70,
+            "likes": 0,
             "title": "Catch Me If You Can",
             "year": "2002",
             "runtime": "141",
@@ -1015,6 +1085,7 @@ var movieList = [
         },
         {
             "id": 71,
+            "likes": 0,
             "title": "American History X",
             "year": "1998",
             "runtime": "119",
@@ -1029,6 +1100,7 @@ var movieList = [
         },
         {
             "id": 72,
+            "likes": 0,
             "title": "Casino",
             "year": "1995",
             "runtime": "178",
@@ -1044,6 +1116,7 @@ var movieList = [
         },
         {
             "id": 73,
+            "likes": 0,
             "title": "Pirates of the Caribbean: At World's End",
             "year": "2007",
             "runtime": "169",
@@ -1059,6 +1132,7 @@ var movieList = [
         },
         {
             "id": 74,
+            "likes": 0,
             "title": "Pirates of the Caribbean: On Stranger Tides",
             "year": "2011",
             "runtime": "136",
@@ -1074,6 +1148,7 @@ var movieList = [
         },
         {
             "id": 75,
+            "likes": 0,
             "title": "Crash",
             "year": "2004",
             "runtime": "112",
@@ -1089,6 +1164,7 @@ var movieList = [
         },
         {
             "id": 76,
+            "likes": 0,
             "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
             "year": "2003",
             "runtime": "143",
@@ -1104,6 +1180,7 @@ var movieList = [
         },
         {
             "id": 77,
+            "likes": 0,
             "title": "The Lord of the Rings: The Return of the King",
             "year": "2003",
             "runtime": "201",
@@ -1119,6 +1196,7 @@ var movieList = [
         },
         {
             "id": 78,
+            "likes": 0,
             "title": "Oldboy",
             "year": "2003",
             "runtime": "120",
@@ -1134,6 +1212,7 @@ var movieList = [
         },
         {
             "id": 79,
+            "likes": 0,
             "title": "Chocolat",
             "year": "2000",
             "runtime": "121",
@@ -1148,6 +1227,7 @@ var movieList = [
         },
         {
             "id": 80,
+            "likes": 0,
             "title": "Casino Royale",
             "year": "2006",
             "runtime": "144",
@@ -1163,6 +1243,7 @@ var movieList = [
         },
         {
             "id": 81,
+            "likes": 0,
             "title": "WALL·E",
             "year": "2008",
             "runtime": "98",
@@ -1178,6 +1259,7 @@ var movieList = [
         },
         {
             "id": 82,
+            "likes": 0,
             "title": "The Wolf of Wall Street",
             "year": "2013",
             "runtime": "180",
@@ -1193,6 +1275,7 @@ var movieList = [
         },
         {
             "id": 83,
+            "likes": 0,
             "title": "Hellboy II: The Golden Army",
             "year": "2008",
             "runtime": "120",
@@ -1208,6 +1291,7 @@ var movieList = [
         },
         {
             "id": 84,
+            "likes": 0,
             "title": "Sunset Boulevard",
             "year": "1950",
             "runtime": "110",
@@ -1223,6 +1307,7 @@ var movieList = [
         },
         {
             "id": 85,
+            "likes": 0,
             "title": "I-See-You.Com",
             "year": "2006",
             "runtime": "92",
@@ -1236,6 +1321,7 @@ var movieList = [
         },
         {
             "id": 86,
+            "likes": 0,
             "title": "The Grand Budapest Hotel",
             "year": "2014",
             "runtime": "99",
@@ -1251,6 +1337,7 @@ var movieList = [
         },
         {
             "id": 87,
+            "likes": 0,
             "title": "The Hitchhiker's Guide to the Galaxy",
             "year": "2005",
             "runtime": "109",
@@ -1266,6 +1353,7 @@ var movieList = [
         },
         {
             "id": 88,
+            "likes": 0,
             "title": "Once Upon a Time in America",
             "year": "1984",
             "runtime": "229",
@@ -1280,6 +1368,7 @@ var movieList = [
         },
         {
             "id": 89,
+            "likes": 0,
             "title": "Oblivion",
             "year": "2013",
             "runtime": "124",
@@ -1295,6 +1384,7 @@ var movieList = [
         },
         {
             "id": 90,
+            "likes": 0,
             "title": "V for Vendetta",
             "year": "2005",
             "runtime": "132",
@@ -1310,6 +1400,7 @@ var movieList = [
         },
         {
             "id": 91,
+            "likes": 0,
             "title": "Gattaca",
             "year": "1997",
             "runtime": "106",
@@ -1325,6 +1416,7 @@ var movieList = [
         },
         {
             "id": 92,
+            "likes": 0,
             "title": "Silver Linings Playbook",
             "year": "2012",
             "runtime": "122",
@@ -1340,6 +1432,7 @@ var movieList = [
         },
         {
             "id": 93,
+            "likes": 0,
             "title": "Alice in Wonderland",
             "year": "2010",
             "runtime": "108",
@@ -1355,6 +1448,7 @@ var movieList = [
         },
         {
             "id": 94,
+            "likes": 0,
             "title": "Gandhi",
             "year": "1982",
             "runtime": "191",
@@ -1369,6 +1463,7 @@ var movieList = [
         },
         {
             "id": 95,
+            "likes": 0,
             "title": "Pacific Rim",
             "year": "2013",
             "runtime": "131",
@@ -1384,6 +1479,7 @@ var movieList = [
         },
         {
             "id": 96,
+            "likes": 0,
             "title": "Kiss Kiss Bang Bang",
             "year": "2005",
             "runtime": "103",
@@ -1399,6 +1495,7 @@ var movieList = [
         },
         {
             "id": 97,
+            "likes": 0,
             "title": "The Quiet American",
             "year": "2002",
             "runtime": "101",
@@ -1414,6 +1511,7 @@ var movieList = [
         },
         {
             "id": 98,
+            "likes": 0,
             "title": "Cloud Atlas",
             "year": "2012",
             "runtime": "172",
@@ -1428,6 +1526,7 @@ var movieList = [
         },
         {
             "id": 99,
+            "likes": 0,
             "title": "The Impossible",
             "year": "2012",
             "runtime": "114",
@@ -1442,6 +1541,7 @@ var movieList = [
         },
         {
             "id": 100,
+            "likes": 0,
             "title": "All Quiet on the Western Front",
             "year": "1930",
             "runtime": "136",
@@ -1456,6 +1556,7 @@ var movieList = [
         },
         {
             "id": 101,
+            "likes": 0,
             "title": "The English Patient",
             "year": "1996",
             "runtime": "162",
@@ -1471,6 +1572,7 @@ var movieList = [
         },
         {
             "id": 102,
+            "likes": 0,
             "title": "Dallas Buyers Club",
             "year": "2013",
             "runtime": "117",
@@ -1485,6 +1587,7 @@ var movieList = [
         },
         {
             "id": 103,
+            "likes": 0,
             "title": "Frida",
             "year": "2002",
             "runtime": "123",
@@ -1500,6 +1603,7 @@ var movieList = [
         },
         {
             "id": 104,
+            "likes": 0,
             "title": "Before Sunrise",
             "year": "1995",
             "runtime": "105",
@@ -1514,6 +1618,7 @@ var movieList = [
         },
         {
             "id": 105,
+            "likes": 0,
             "title": "The Rum Diary",
             "year": "2011",
             "runtime": "120",
@@ -1528,6 +1633,7 @@ var movieList = [
         },
         {
             "id": 106,
+            "likes": 0,
             "title": "The Last Samurai",
             "year": "2003",
             "runtime": "154",
@@ -1543,6 +1649,7 @@ var movieList = [
         },
         {
             "id": 107,
+            "likes": 0,
             "title": "Chinatown",
             "year": "1974",
             "runtime": "130",
@@ -1558,6 +1665,7 @@ var movieList = [
         },
         {
             "id": 108,
+            "likes": 0,
             "title": "Calvary",
             "year": "2014",
             "runtime": "102",
@@ -1572,6 +1680,7 @@ var movieList = [
         },
         {
             "id": 109,
+            "likes": 0,
             "title": "Before Sunset",
             "year": "2004",
             "runtime": "80",
@@ -1586,6 +1695,7 @@ var movieList = [
         },
         {
             "id": 110,
+            "likes": 0,
             "title": "Spirited Away",
             "year": "2001",
             "runtime": "125",
@@ -1601,6 +1711,7 @@ var movieList = [
         },
         {
             "id": 111,
+            "likes": 0,
             "title": "Indochine",
             "year": "1992",
             "runtime": "159",
@@ -1615,6 +1726,7 @@ var movieList = [
         },
         {
             "id": 112,
+            "likes": 0,
             "title": "Birdman or (The Unexpected Virtue of Ignorance)",
             "year": "2014",
             "runtime": "119",
@@ -1630,6 +1742,7 @@ var movieList = [
         },
         {
             "id": 113,
+            "likes": 0,
             "title": "Boyhood",
             "year": "2014",
             "runtime": "165",
@@ -1643,6 +1756,7 @@ var movieList = [
         },
         {
             "id": 114,
+            "likes": 0,
             "title": "12 Angry Men",
             "year": "1957",
             "runtime": "96",
@@ -1657,6 +1771,7 @@ var movieList = [
         },
         {
             "id": 115,
+            "likes": 0,
             "title": "The Imitation Game",
             "year": "2014",
             "runtime": "114",
@@ -1672,6 +1787,7 @@ var movieList = [
         },
         {
             "id": 116,
+            "likes": 0,
             "title": "Interstellar",
             "year": "2014",
             "runtime": "169",
@@ -1687,6 +1803,7 @@ var movieList = [
         },
         {
             "id": 117,
+            "likes": 0,
             "title": "Big Nothing",
             "year": "2006",
             "runtime": "86",
@@ -1702,6 +1819,7 @@ var movieList = [
         },
         {
             "id": 118,
+            "likes": 0,
             "title": "Das Boot",
             "year": "1981",
             "runtime": "149",
@@ -1717,6 +1835,7 @@ var movieList = [
         },
         {
             "id": 119,
+            "likes": 0,
             "title": "Shrek 2",
             "year": "2004",
             "runtime": "93",
@@ -1732,6 +1851,7 @@ var movieList = [
         },
         {
             "id": 120,
+            "likes": 0,
             "title": "Sin City",
             "year": "2005",
             "runtime": "124",
@@ -1746,6 +1866,7 @@ var movieList = [
         },
         {
             "id": 121,
+            "likes": 0,
             "title": "Nebraska",
             "year": "2013",
             "runtime": "115",
@@ -1761,6 +1882,7 @@ var movieList = [
         },
         {
             "id": 122,
+            "likes": 0,
             "title": "Shrek",
             "year": "2001",
             "runtime": "90",
@@ -1776,6 +1898,7 @@ var movieList = [
         },
         {
             "id": 123,
+            "likes": 0,
             "title": "Mr. & Mrs. Smith",
             "year": "2005",
             "runtime": "120",
@@ -1791,6 +1914,7 @@ var movieList = [
         },
         {
             "id": 124,
+            "likes": 0,
             "title": "Original Sin",
             "year": "2001",
             "runtime": "116",
@@ -1806,6 +1930,7 @@ var movieList = [
         },
         {
             "id": 125,
+            "likes": 0,
             "title": "Shrek Forever After",
             "year": "2010",
             "runtime": "93",
@@ -1821,6 +1946,7 @@ var movieList = [
         },
         {
             "id": 126,
+            "likes": 0,
             "title": "Before Midnight",
             "year": "2013",
             "runtime": "109",
@@ -1835,6 +1961,7 @@ var movieList = [
         },
         {
             "id": 127,
+            "likes": 0,
             "title": "Despicable Me",
             "year": "2010",
             "runtime": "95",
@@ -1850,6 +1977,7 @@ var movieList = [
         },
         {
             "id": 128,
+            "likes": 0,
             "title": "Troy",
             "year": "2004",
             "runtime": "163",
@@ -1863,6 +1991,7 @@ var movieList = [
         },
         {
             "id": 129,
+            "likes": 0,
             "title": "The Hobbit: An Unexpected Journey",
             "year": "2012",
             "runtime": "169",
@@ -1877,6 +2006,7 @@ var movieList = [
         },
         {
             "id": 130,
+            "likes": 0,
             "title": "The Great Gatsby",
             "year": "2013",
             "runtime": "143",
@@ -1891,6 +2021,7 @@ var movieList = [
         },
         {
             "id": 131,
+            "likes": 0,
             "title": "Ice Age",
             "year": "2002",
             "runtime": "81",
@@ -1906,6 +2037,7 @@ var movieList = [
         },
         {
             "id": 132,
+            "likes": 0,
             "title": "The Lord of the Rings: The Fellowship of the Ring",
             "year": "2001",
             "runtime": "178",
@@ -1921,6 +2053,7 @@ var movieList = [
         },
         {
             "id": 133,
+            "likes": 0,
             "title": "The Lord of the Rings: The Two Towers",
             "year": "2002",
             "runtime": "179",
@@ -1936,6 +2069,7 @@ var movieList = [
         },
         {
             "id": 134,
+            "likes": 0,
             "title": "Ex Machina",
             "year": "2015",
             "runtime": "108",
@@ -1951,6 +2085,7 @@ var movieList = [
         },
         {
             "id": 135,
+            "likes": 0,
             "title": "The Theory of Everything",
             "year": "2014",
             "runtime": "123",
@@ -1966,6 +2101,7 @@ var movieList = [
         },
         {
             "id": 136,
+            "likes": 0,
             "title": "Shogun",
             "year": "1980",
             "runtime": "60",
@@ -1981,6 +2117,7 @@ var movieList = [
         },
         {
             "id": 137,
+            "likes": 0,
             "title": "Spotlight",
             "year": "2015",
             "runtime": "128",
@@ -1996,6 +2133,7 @@ var movieList = [
         },
         {
             "id": 138,
+            "likes": 0,
             "title": "Vertigo",
             "year": "1958",
             "runtime": "128",
@@ -2011,6 +2149,7 @@ var movieList = [
         },
         {
             "id": 139,
+            "likes": 0,
             "title": "Whiplash",
             "year": "2014",
             "runtime": "107",
@@ -2025,6 +2164,7 @@ var movieList = [
         },
         {
             "id": 140,
+            "likes": 0,
             "title": "The Lives of Others",
             "year": "2006",
             "runtime": "137",
@@ -2039,6 +2179,7 @@ var movieList = [
         },
         {
             "id": 141,
+            "likes": 0,
             "title": "Hotel Rwanda",
             "year": "2004",
             "runtime": "121",
@@ -2054,6 +2195,7 @@ var movieList = [
         },
         {
             "id": 142,
+            "likes": 0,
             "title": "The Martian",
             "year": "2015",
             "runtime": "144",
@@ -2069,6 +2211,7 @@ var movieList = [
         },
         {
             "id": 143,
+            "likes": 0,
             "title": "To Kill a Mockingbird",
             "year": "1962",
             "runtime": "129",
@@ -2083,6 +2226,7 @@ var movieList = [
         },
         {
             "id": 144,
+            "likes": 0,
             "title": "The Hateful Eight",
             "year": "2015",
             "runtime": "187",
@@ -2098,6 +2242,7 @@ var movieList = [
         },
         {
             "id": 145,
+            "likes": 0,
             "title": "A Separation",
             "year": "2011",
             "runtime": "123",
@@ -2112,6 +2257,7 @@ var movieList = [
         },
         {
             "id": 146,
+            "likes": 0,
             "title": "The Big Short",
             "year": "2015",
             "runtime": "130",
