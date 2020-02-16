@@ -7,8 +7,7 @@
 }
 
 .img-thumbnail {
-	height: 10em;
-	width: 7em;
+	100%
 }
 
 .bg-darkblue {
@@ -30,12 +29,10 @@
   -webkit-box-orient: vertical;
 }
 
-.rating {
-	height: 3em;
-	width: 3em;
+#rating {
 	background-color: #28A745;
-	border-radius: 50%;
+	border-radius: 5px;
+	font-size: 2em;
 	text-align: center;
-	vertical-align: center;
 }
 

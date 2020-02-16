@@ -14,27 +14,27 @@ const buildMovieSite = (content, containerName) => {
 					<h4 class="text-center">${content.title}</h4>
 				</div>
 				<div class="row">
-					<div class="col-md-5 col-sm-3 col-12">
+					<div class="col-lg-6 col-md-6 col-sm-4 col-12 pl-3">
 						<img src="${content.posterUrl}" class="img-thumbnail">
 					</div>
-					<div class="col-md-7 col-sm-9 col-12">
+					<div class="col-lg-6 col-md-6 col-sm-8 col-12">
 						<div class="small pl-2 trunc">${content.plot}</div>
 					</div>
 				</div>
-				<div class="card-footer">
+				<div class="card-footer space-between">
 					<div class="row">				
-						<button class="like btn btn-dark text-success col-md-3 col-sm-4">
-							<h5>Like 
+						<button class="like btn btn-dark text-success col-md-4 col-sm-4">
+							<span>Like 
 								<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-							</h5>
+							</span>
 						</button>		
-						<button class="dislike btn btn-dark text-danger col-md-3 col-sm-4">
-							<h5>Dislike  
+						<button class="dislike btn btn-dark text-danger col-md-4 col-sm-4">
+							<span>Dislike  
 								<i class="fa fa-thumbs-down" aria-hidden="true"></i>
-							</h5>
+							</span>
 						</button>
-						<div class="rating col-md-2 ml-auto col-12">
-							<h2 data-movieId="${content.id}" class="numberRating">${content.likes}</h2>
+						<div class="col-md-3 ml-auto col-4 mx-auto" id="rating">
+							<span data-movieId="${content.id}" class="numberRating">${content.likes}</span>
 						</div>
 					</div>
 				</div>
@@ -52,10 +52,14 @@ document.querySelectorAll('.like').forEach((e) => {
 		const giveMeMovie = movieList.find(x => {
 			return x.id == likes.dataset.movieid
 		})
-		giveMeMovie.likes++
+		giveMeMovie.likes++;
+		if(giveMeMovie.likes >= 10){
+			document.querySelector('#rating').style.fontSize = '1.5em';
+		}
+		// giveMeMovie.likes = Math.min(giveMeMovie.likes, 9);
 		likes.innerText = giveMeMovie.likes;
-	})
-});
+
+	})});
 		
 document.querySelectorAll('.dislike').forEach((e) => {
 	e.addEventListener("click", function() {
@@ -63,10 +67,15 @@ document.querySelectorAll('.dislike').forEach((e) => {
 		const giveMeMovie = movieList.find(x => {
 			return x.id == likes.dataset.movieid
 		})
-		giveMeMovie.likes--
+		giveMeMovie.likes--;
+		if(giveMeMovie.likes <= -10){
+			document.querySelector('#rating').style.fontSize = '1em';
+		}
+		// giveMeMovie.likes = Math.max(giveMeMovie.likes, 0);
 		likes.innerText = giveMeMovie.likes;
 	})
 });
+
 
 
 document.querySelector('#sort').addEventListener('click', function(){
