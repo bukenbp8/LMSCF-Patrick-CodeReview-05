@@ -33,8 +33,8 @@ const buildMovieSite = (content, containerName) => {
 								<i class="fa fa-thumbs-down" aria-hidden="true"></i>
 							</span>
 						</button>
-						<div class="col-md-3 ml-auto col-4 mx-auto" id="rating">
-							<span data-movieId="${content.id}" class="numberRating">${content.likes}</span>
+						<div class="rating col-md-4 ml-auto col-3 mx-auto">
+							<h2 data-movieId="${content.id}" class="numberRating">${content.likes}</h2>
 						</div>
 					</div>
 				</div>
@@ -45,39 +45,6 @@ const buildMovieSite = (content, containerName) => {
 
 movieList.forEach(content => buildMovieSite(content, '.movies'));
 
-
-document.querySelectorAll('.like').forEach((e) => {
-	e.addEventListener("click", function() {
-		let likes = e.parentNode.querySelector(".numberRating");
-		const giveMeMovie = movieList.find(x => {
-			return x.id == likes.dataset.movieid
-		})
-		giveMeMovie.likes++;
-		if(giveMeMovie.likes >= 10){
-			document.querySelector('#rating').style.fontSize = '1.5em';
-		}
-		// giveMeMovie.likes = Math.min(giveMeMovie.likes, 9);
-		likes.innerText = giveMeMovie.likes;
-
-	})});
-		
-document.querySelectorAll('.dislike').forEach((e) => {
-	e.addEventListener("click", function() {
-		let likes = e.parentNode.querySelector(".numberRating");
-		const giveMeMovie = movieList.find(x => {
-			return x.id == likes.dataset.movieid
-		})
-		giveMeMovie.likes--;
-		if(giveMeMovie.likes <= -10){
-			document.querySelector('#rating').style.fontSize = '1em';
-		}
-		// giveMeMovie.likes = Math.max(giveMeMovie.likes, 0);
-		likes.innerText = giveMeMovie.likes;
-	})
-});
-
-
-
 document.querySelector('#sort').addEventListener('click', function(){
 	document.querySelector('.movies').innerHTML = '';
 	const sortedList = movieList.sort(function(a, b){
@@ -87,7 +54,7 @@ document.querySelector('#sort').addEventListener('click', function(){
 
 	document.querySelector('#overview').innerHTML = 'Top Movies';
 
-
+	buttons();
 })
 
 
@@ -101,7 +68,10 @@ const actionButton = document.querySelector('#Action').addEventListener('click',
 	actionList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Action Movies';
+
+	buttons();
 })
+
 
 const adventureButton = document.querySelector('#Adventure').addEventListener('click', function() {
 	document.querySelector('.movies').innerHTML = '';
@@ -113,7 +83,10 @@ const adventureButton = document.querySelector('#Adventure').addEventListener('c
 	adventureList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Adventure Movies';
+
+	buttons();
 })
+
 
 const comedyButton = document.querySelector('#Comedy').addEventListener('click', function() {
 	document.querySelector('.movies').innerHTML = '';
@@ -125,6 +98,8 @@ const comedyButton = document.querySelector('#Comedy').addEventListener('click',
 	comedyList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Comedy Movies';
+
+	buttons();
 })
 
 const crimeButton = document.querySelector('#Crime').addEventListener('click', function() {
@@ -137,7 +112,10 @@ const crimeButton = document.querySelector('#Crime').addEventListener('click', f
 	crimeList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Crime Movies';
+
+	buttons();
 })
+
 
 const dramaButton = document.querySelector('#Drama').addEventListener('click', function() {
 	document.querySelector('.movies').innerHTML = '';
@@ -149,6 +127,8 @@ const dramaButton = document.querySelector('#Drama').addEventListener('click', f
 	dramaList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Drama Movies';
+
+	buttons();
 })
 
 const familyButton = document.querySelector('#Family').addEventListener('click', function() {
@@ -161,7 +141,10 @@ const familyButton = document.querySelector('#Family').addEventListener('click',
 	familyList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Family Movies';
+
+	buttons();
 })
+
 
 const romanceButton = document.querySelector('#Romance').addEventListener('click', function() {
 	document.querySelector('.movies').innerHTML = '';
@@ -173,6 +156,8 @@ const romanceButton = document.querySelector('#Romance').addEventListener('click
 	romanceList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Romance Movies';
+
+	buttons();
 })
 
 const thrillerButton = document.querySelector('#Thriller').addEventListener('click', function() {
@@ -185,6 +170,8 @@ const thrillerButton = document.querySelector('#Thriller').addEventListener('cli
 	thrillerList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'Thriller Movies';
+
+	buttons();
 })
 
 const warButton = document.querySelector('#War').addEventListener('click', function() {
@@ -197,9 +184,35 @@ const warButton = document.querySelector('#War').addEventListener('click', funct
 	warList.forEach(content => buildMovieSite(content, '.movies'));
 
 	document.querySelector('#overview').innerHTML = 'War Movies';
+
+	buttons();
 })
 
+ function buttons() {
+ 	document.querySelectorAll('.like').forEach((e) => {
+		e.addEventListener("click", function() {
+			let likes = e.parentNode.querySelector(".numberRating");
+			const giveMeMovie = movieList.find(x => {
+				return x.id == likes.dataset.movieid
+			})
+			giveMeMovie.likes++;		
+			// giveMeMovie.likes = Math.min(giveMeMovie.likes, 9);
+			likes.innerText = giveMeMovie.likes;
+			})});
+		
+	document.querySelectorAll('.dislike').forEach((e) => {
+		e.addEventListener("click", function() {
+			let likes = e.parentNode.querySelector(".numberRating");
+			const giveMeMovie = movieList.find(x => {
+				return x.id == likes.dataset.movieid
+			})
+			giveMeMovie.likes--;
+			// giveMeMovie.likes = Math.max(giveMeMovie.likes, 0);
+			likes.innerText = giveMeMovie.likes;
+		})
+	});
+};
 
-
+buttons();
 
 

@@ -29,10 +29,10 @@
   -webkit-box-orient: vertical;
 }
 
-#rating {
+.rating {
 	background-color: #28A745;
 	border-radius: 5px;
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: center;
 }
 
